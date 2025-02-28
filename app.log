@@ -1,0 +1,63 @@
+2025-01-24 23:23:54,364 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-24 23:23:54,366 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-24 23:23:54,372 - INFO -  * Restarting with stat
+2025-01-24 23:23:55,074 - WARNING -  * Debugger is active!
+2025-01-24 23:23:55,079 - INFO -  * Debugger PIN: 112-667-279
+2025-01-24 23:24:09,956 - INFO - Mengakses halaman utama.
+2025-01-24 23:24:10,029 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:10] "GET / HTTP/1.1" 200 -
+2025-01-24 23:24:10,230 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-24 23:24:13,639 - INFO - Mengakses halaman AES.
+2025-01-24 23:24:13,769 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:13] "GET /aes HTTP/1.1" 200 -
+2025-01-24 23:24:40,092 - INFO - Nama file baru yang dihasilkan: Screenshot 2025-01-24 102027x4uPeHm.png
+2025-01-24 23:24:40,093 - INFO - Memulai enkripsi file pengguna menggunakan AES...
+2025-01-24 23:24:40,095 - INFO - Melakukan enkripsi AES
+2025-01-24 23:24:40,134 - DEBUG - Enkripsi AES selesai.
+2025-01-24 23:24:40,138 - INFO - File terenkripsi disimpan di: uploads\Screenshot 2025-01-24 102027x4uPeHm.png
+2025-01-24 23:24:40,138 - INFO - Membuat pasangan kunci RSA baru...
+2025-01-24 23:24:40,480 - INFO - Melakukan enkripsi RSA untuk secret key...
+2025-01-24 23:24:40,487 - DEBUG - Enkripsi RSA selesai.
+2025-01-24 23:24:40,488 - INFO - Melakukan hash pada password...
+2025-01-24 23:24:40,489 - DEBUG - Password berhasil di-hash
+2025-01-24 23:24:40,490 - INFO - Memulai enkripsi data kunci (.key) menggunakan AES...
+2025-01-24 23:24:40,491 - INFO - Melakukan enkripsi AES
+2025-01-24 23:24:40,492 - DEBUG - Enkripsi AES selesai.
+2025-01-24 23:24:40,493 - INFO - File .key terenkripsi disimpan di: uploads\Screenshot 2025-01-24 102027x4uPeHm.png.key
+2025-01-24 23:24:40,497 - INFO - File berhasil di-upload dan terenkripsi.
+2025-01-24 23:24:40,503 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:40] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-01-24 23:24:40,516 - INFO - Menampilkan halaman sukses.
+2025-01-24 23:24:40,599 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:40] "GET /success HTTP/1.1" 200 -
+2025-01-24 23:24:49,001 - INFO - Mengunduh private key...
+2025-01-24 23:24:49,002 - INFO - Private key ditemukan, mengirimkan file
+2025-01-24 23:24:49,250 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:49] "POST /download_key HTTP/1.1" 200 -
+2025-01-24 23:24:51,055 - INFO - Mengakses halaman utama.
+2025-01-24 23:24:51,059 - INFO - 127.0.0.1 - - [24/Jan/2025 23:24:51] "GET / HTTP/1.1" 200 -
+2025-01-24 23:25:03,359 - INFO - Melakukan hash pada password...
+2025-01-24 23:25:03,359 - DEBUG - Password berhasil di-hash
+2025-01-24 23:25:03,369 - INFO - Memulai dekripsi file .key menggunakan AES...
+2025-01-24 23:25:03,369 - INFO - Melakukan dekripsi AES
+2025-01-24 23:25:03,370 - DEBUG - Dekripsi AES selesai.
+2025-01-24 23:25:03,370 - ERROR - Password tidak cocok untuk file Screenshot 2025-01-24 102027x4uPeHm.png.
+2025-01-24 23:25:03,401 - INFO - 127.0.0.1 - - [24/Jan/2025 23:25:03] "POST /download HTTP/1.1" 200 -
+2025-01-24 23:25:05,013 - INFO - Mengakses halaman utama.
+2025-01-24 23:25:05,017 - INFO - 127.0.0.1 - - [24/Jan/2025 23:25:05] "GET / HTTP/1.1" 200 -
+2025-01-24 23:25:14,490 - INFO - Melakukan hash pada password...
+2025-01-24 23:25:14,490 - DEBUG - Password berhasil di-hash
+2025-01-24 23:25:14,492 - INFO - Memulai dekripsi file .key menggunakan AES...
+2025-01-24 23:25:14,492 - INFO - Melakukan dekripsi AES
+2025-01-24 23:25:14,493 - DEBUG - Dekripsi AES selesai.
+2025-01-24 23:25:14,494 - INFO - Melakukan dekripsi RSA untuk secret key...
+2025-01-24 23:25:14,507 - DEBUG - Dekripsi RSA selesai.
+2025-01-24 23:25:14,508 - INFO - Memulai dekripsi file pengguna menggunakan AES...
+2025-01-24 23:25:14,533 - INFO - Melakukan dekripsi AES
+2025-01-24 23:25:14,543 - DEBUG - Dekripsi AES selesai.
+2025-01-24 23:25:14,546 - INFO - 127.0.0.1 - - [24/Jan/2025 23:25:14] "POST /download HTTP/1.1" 200 -
+2025-02-28 13:21:29,578 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-28 13:21:29,581 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 13:21:29,586 - INFO -  * Restarting with stat
+2025-02-28 13:21:30,046 - WARNING -  * Debugger is active!
+2025-02-28 13:21:30,062 - INFO -  * Debugger PIN: 311-596-713
+2025-02-28 13:21:48,409 - INFO - Mengakses halaman utama.
+2025-02-28 13:21:48,471 - INFO - 127.0.0.1 - - [28/Feb/2025 13:21:48] "GET / HTTP/1.1" 200 -
+2025-02-28 13:21:48,624 - INFO - 127.0.0.1 - - [28/Feb/2025 13:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
