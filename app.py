@@ -256,7 +256,7 @@ def download_file():
         # Load dan decrypt file terenkripsi tanpa menyimpan ke server
         encrypted_path = os.path.join(UPLOAD_FOLDER, encrypted_filename)
         if not os.path.exists(encrypted_path):
-            logging.errorr(f'File terenkripsi {encrypted_filename} tidak ditemukan.')
+            logging.error(f'File terenkripsi {encrypted_filename} tidak ditemukan.')
             return render_template('gagal.html')
 
         # Log sebelum mendekripsi file pengguna
