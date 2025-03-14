@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pytest
 import os
 from app import app, aes_encrypt, aes_decrypt, hash_password
@@ -34,7 +34,7 @@ def test_hash_password():
 
 def test_success(client):
     response = client.get('/success')
-=======
+
 import pytest
 import os
 from app import app, aes_encrypt, aes_decrypt, hash_password
@@ -67,7 +67,5 @@ def test_hash_password():
     # Memastikan hash tetap sama untuk password yang sama
     assert hashed == hash_password(password)
 
-def test_success(client):
-    response = client.get('/success')
->>>>>>> b489bb5f203ac70d3c5fd325d9ae4366cb6c7d9f
+def test_success(clien    response = client.get('/success')
     assert response.status_code == 302  # Cek apakah redirect ke halaman lain
