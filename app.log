@@ -77,3 +77,9 @@
 2025-03-07 09:57:04,089 - INFO -  * Restarting with stat
 2025-03-07 09:57:04,546 - WARNING -  * Debugger is active!
 2025-03-07 09:57:04,554 - INFO -  * Debugger PIN: 112-667-279
+2025-03-14 10:10:26,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 10:10:26,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 10:10:26,263 - INFO -  * Restarting with stat
+2025-03-14 10:10:26,754 - WARNING -  * Debugger is active!
+2025-03-14 10:10:26,774 - INFO -  * Debugger PIN: 112-667-279
