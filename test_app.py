@@ -2,6 +2,9 @@ import pytest
 import os
 from app import app, aes_encrypt, aes_decrypt, hash_password
 from flask import Flask, request, render_template, send_file, jsonify, redirect, url_for, session
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
+from cryptography.hazmat.primitives import serialization, hashes
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 # Menggunakan fixture untuk mengatur aplikasi Flask untuk pengujian
 @pytest.fixture
