@@ -61,3 +61,25 @@
 2025-02-28 13:21:48,409 - INFO - Mengakses halaman utama.
 2025-02-28 13:21:48,471 - INFO - 127.0.0.1 - - [28/Feb/2025 13:21:48] "GET / HTTP/1.1" 200 -
 2025-02-28 13:21:48,624 - INFO - 127.0.0.1 - - [28/Feb/2025 13:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-28 16:14:56,694 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-28 16:14:56,696 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 16:14:56,701 - INFO -  * Restarting with stat
+2025-02-28 16:14:57,266 - WARNING -  * Debugger is active!
+2025-02-28 16:14:57,287 - INFO -  * Debugger PIN: 311-596-713
+2025-02-28 16:24:52,401 - INFO -  * Detected change in 'D:\\Project\\encrypt-data-ci-cd-pipline\\app.py', reloading
+2025-02-28 16:24:52,501 - INFO -  * Restarting with stat
+2025-02-28 16:24:53,112 - WARNING -  * Debugger is active!
+2025-02-28 16:24:53,115 - INFO -  * Debugger PIN: 311-596-713
+2025-03-07 09:57:04,085 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-07 09:57:04,086 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 09:57:04,089 - INFO -  * Restarting with stat
+2025-03-07 09:57:04,546 - WARNING -  * Debugger is active!
+2025-03-07 09:57:04,554 - INFO -  * Debugger PIN: 112-667-279
+2025-03-14 10:10:26,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 10:10:26,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 10:10:26,263 - INFO -  * Restarting with stat
+2025-03-14 10:10:26,754 - WARNING -  * Debugger is active!
+2025-03-14 10:10:26,774 - INFO -  * Debugger PIN: 112-667-279
