@@ -30,7 +30,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
-            cd ~/home/kubil/app/encrypt-decrypt-keamanan-komputer
+            cd ~/app/encrypt-decrypt-keamanan-komputer
             git pull origin main
             pip install -r requirements.txt  # Install dependencies if needed
             python app.py  # Run your application
